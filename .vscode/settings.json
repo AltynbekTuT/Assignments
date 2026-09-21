@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "Projects/Assignment_1-builder",
+        "Projects/Assignment2-design-patterns/src/factorymethod"
+    ]
+}
