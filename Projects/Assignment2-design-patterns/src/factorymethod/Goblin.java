@@ -1,3 +1,5 @@
+package factorymethod;
+
 public class Goblin implements Enemy {
     @Override
     public void attack() {
