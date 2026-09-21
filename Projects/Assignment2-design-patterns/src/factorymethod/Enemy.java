@@ -1,3 +1,6 @@
-public class Enemy {
-    
+package factorymethod;
+
+public interface Enemy {
+    void attack();
+    String getName();
 }
