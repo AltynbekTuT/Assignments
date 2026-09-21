@@ -15,3 +15,4 @@ src/
     ├── EmailPreviewBuilder.java  # Concrete Builder #2 (Text Preview)
     ├── EmailDirector.java        # Director managing predefined configurations
     └── Main.java                 # Client code demonstrating usage & validation
+

@@ -1,4 +1,4 @@
-package src.email;
+package Projects.email;
 
 /*
  * Интерфейс Строителя 
