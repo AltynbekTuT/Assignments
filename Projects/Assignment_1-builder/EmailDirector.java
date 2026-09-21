@@ -1,4 +1,3 @@
-package Projects.email;
 
 public class EmailDirector {
     public void makeWelcomeEmail(EmailBuilder b, String email, String name) {

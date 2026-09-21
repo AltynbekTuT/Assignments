@@ -1,4 +1,3 @@
-package Projects.email;
 
 /**
  * Builder 1 создает Java-объект Email

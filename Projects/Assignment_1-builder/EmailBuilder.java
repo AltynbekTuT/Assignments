@@ -1,4 +1,3 @@
-package Projects.email;
 
 /*
  * Интерфейс Строителя 

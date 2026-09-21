@@ -1,5 +1,3 @@
-package Projects.email;
-
 /**
  * Builder 2 создает текстовую репрезентацию (Preview Sheet).
  */

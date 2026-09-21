@@ -1,5 +1,3 @@
-package Projects.email;
-
 /**
  * Immutable Product
  */
