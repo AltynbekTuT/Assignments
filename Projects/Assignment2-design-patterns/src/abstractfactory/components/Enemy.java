@@ -1,3 +1,5 @@
-public class Enemy {
-    
+package abstractfactory.components;
+
+public interface Enemy {
+    void spawn();
 }

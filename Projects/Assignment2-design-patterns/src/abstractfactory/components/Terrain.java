@@ -1,3 +1,5 @@
-public class Terrain {
-    
+package abstractfactory.components;
+
+public interface Terrain {
+    void render();
 }
