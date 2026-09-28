@@ -1,0 +1,12 @@
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\abstraction\ContentModerator.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\abstraction\FlagForReviewModerator.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\abstraction\StrictModerator.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\dynamic\DynamicCheckerFactory.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\exception\ModerationException.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\implementor\CheckResult.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\implementor\ContentChecker.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\implementor\OpenAiModerationChecker.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\implementor\PerspectiveApiChecker.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\implementor\RegexEngineAdapter.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\legacy\EngineStatus.java
+C:\Users\kriss\OneDrive\Рабочий стол\Assignment_1\Projects\Assignment3\src\main\java\com\example\moderation\legacy\LegacyRegexFilterEngine.java
