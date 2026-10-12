@@ -23,13 +23,11 @@ public class RegexEngineAdapter implements ContentChecker {
         EngineStatus status;
 
         try {
-            // Вызов несовместимого метода с другими параметрами и типами
             status = legacyEngine.scanBuffer(bytes, bytes.length, true);
         } catch (Exception e) {
             throw new ModerationException("Adapter: Unexpected legacy invocation error", e);
         }
 
-        // Перехват и трансляция кодов ошибок в ModerationException
         if (status.getStatusCode() < 0) {
             throw new ModerationException("Legacy Engine Failure [" + status.getStatusCode() + "]: " + status.getDetailMessage());
         }

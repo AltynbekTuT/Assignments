@@ -15,7 +15,6 @@ class AdapterTest {
     @Test
     @DisplayName("Adapter normal delegation: converts valid response")
     void testNormalDelegation() throws ModerationException {
-        // Создаем Fake-объект legacy-движка с фиксированным ответом без использования Mockito
         LegacyRegexFilterEngine fakeEngine = new LegacyRegexFilterEngine() {
             @Override
             public EngineStatus scanBuffer(byte[] rawText, int length, boolean ignoreCase) {
@@ -32,7 +31,6 @@ class AdapterTest {
     @Test
     @DisplayName("Adapter failure translation: translates negative status code into ModerationException")
     void testFailureTranslation() {
-        // Создаем Fake-объект, имитирующий внутреннюю ошибку (код -2)
         LegacyRegexFilterEngine fakeEngine = new LegacyRegexFilterEngine() {
             @Override
             public EngineStatus scanBuffer(byte[] rawText, int length, boolean ignoreCase) {

@@ -13,7 +13,6 @@ public class StrictModerator extends ContentModerator {
     @Override
     public boolean processPost(String content, String userId) throws ModerationException {
         CheckResult result = checker.checkContent(content, userId);
-        // При строгой модерации любое нарушение приводит к моментальной блокировке
         return result.isApproved();
     }
 }

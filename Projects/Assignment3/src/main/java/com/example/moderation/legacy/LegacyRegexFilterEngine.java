@@ -1,8 +1,8 @@
 package com.example.moderation.legacy;
 
 /**
- * Несовместимый класс сторонней библиотеки.
- * Нарушает контракт Implementor по сигнатуре, типам аргументов и механизму ошибок.
+ * Adaptee object
+ * 
  */
 public class LegacyRegexFilterEngine {
     

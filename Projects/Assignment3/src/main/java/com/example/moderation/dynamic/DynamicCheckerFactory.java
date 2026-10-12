@@ -11,15 +11,10 @@ public class DynamicCheckerFactory {
         this.legacyAdapter = legacyAdapter;
     }
 
-    /**
-     * Выбирает реализацию динамически в зависимости от длины контента во время исполнения.
-     */
     public ContentChecker selectChecker(String content) {
         if (content != null && content.length() < 30) {
-            // Для коротких сообщений используется быстрый локальный Адаптер
             return legacyAdapter;
         }
-        // Для длинных текстов используется облачный сервис
         return cloudChecker;
     }
 }

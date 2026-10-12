@@ -42,7 +42,7 @@ class BridgeTest {
         FlagForReviewModerator moderator = new FlagForReviewModerator(mockChecker);
         boolean result = moderator.processPost("suspicious text", "u1");
 
-        assertTrue(result); // Флаг поднят, но пост не заблокирован полностью
+        assertTrue(result); 
         verify(mockChecker, times(1)).checkContent("suspicious text", "u1");
     }
 }
